@@ -26,7 +26,6 @@
       .range([innerHeight, 0])
 
       const scaleCat = scaleOrdinal(schemeSet2)
-      // const uniques = [...new Set(values.map(v => v.category))]
   </script>
   
   <svg viewBox="0 0 {width} {height}">

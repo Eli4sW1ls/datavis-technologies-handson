@@ -12,15 +12,15 @@
   import { scaleLog } from 'd3-scale';
   const scale = scaleLog()
       .domain([1,10])
-      .range([0, innerWidth])
+      .range([0, innerWidth]);
 
-  import { axisBottom } from 'd3-axis'
-  import { select } from 'd3-selection'
-  const xAxis = axisBottom(scale)
+  import { axisBottom } from 'd3-axis';
+  import { select } from 'd3-selection';
+  const xAxis = axisBottom(scale);
 
   function addAxis(handle) {
     xAxis(select(handle));
-  }
+  };
 </script>
 
 <svg viewBox="0 0 {width} {height}">
