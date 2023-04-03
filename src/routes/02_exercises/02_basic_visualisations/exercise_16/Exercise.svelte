@@ -1,6 +1,6 @@
 <script>
-    const width = 100;
-    const height = 100;
+    const width = 400;
+    const height = 400;
     const margin = { top: 5, right: 5, bottom: 5, left: 5 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
